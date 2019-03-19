@@ -1,0 +1,89 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "age predictor game",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help me",
+                        "how to start",
+                        "can i have a help",
+                        "i need help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "exit"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yeh",
+                        "yesh",
+                        "yesss",
+                        "ohh yeah",
+                        "yeah",
+                        "ok "
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "nope",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "please repeat that",
+                        "please repeat",
+                        "repeat that again",
+                        "can you repeat",
+                        "not clear",
+                        "i didn't got it",
+                        "would you repeat"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": [
+                        "what next to do",
+                        "what next",
+                        "whats next",
+                        "Aleexa next step please",
+                        "neext",
+                        "nexxt",
+                        "done",
+                        "next",
+                        "Next step"
+                    ]
+                },
+                {
+                    "name": "StartGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "can i have some fun with age predictor",
+                        "alexa start age predictor themed skill",
+                        "alexa start age predictor theme skill",
+                        "ask age predictor to predict my age",
+                        "alexa open age predictor game",
+                        "alexa start age predictor game",
+                        "game",
+                        "start it",
+                        "start the game ",
+                        "start"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
